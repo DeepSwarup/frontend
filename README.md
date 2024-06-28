@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Overview
+This is a web-based Face Recognition Attendance System that captures images from a webcam, detects faces, and marks attendance. The application displays the recent attendance entries in a table format. It is built with React for the frontend and communicates with a backend server (assumed to be implemented) via RESTful APIs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Capture images from a webcam for face recognition.
+Display recent attendance entries in a table.
+Responsive design for different screen sizes.
+Stylish and professional UI with a dark theme.
+Prerequisites
+Node.js and npm installed on your system.
+Backend server running locally (assumed to be at http://localhost:5000).
+Getting Started
+Clone the Repository
+sh
+Copy code
+git clone https://github.com/your-username/face-recognition-attendance.git
+cd face-recognition-attendance
+Install Dependencies
+sh
+Copy code
+npm install
+Start the Application
+sh
+Copy code
+npm start
+Backend Server
+Ensure your backend server is running locally at http://localhost:5000. The server should have endpoints to handle:
 
-## Available Scripts
+POST /recognize for recognizing faces and marking attendance.
+GET /recent-attendance for fetching recent attendance entries.
+Folder Structure
+src/: Contains the source code for the React application.
+App.js: Main component that includes webcam capture and attendance table.
+App.css: Styles for the application.
+Code Explanation
+App.js
+useRef to reference the webcam component.
+useState to manage state for capturing images and attendance entries.
+useEffect to fetch recent attendance entries on component mount.
+capture function to handle capturing images from the webcam.
+sendFrames function to send captured images to the backend for recognition.
+Fetches and displays the recent attendance entries in a table.
+App.css
+Styles for the application, including layout, colors, and responsiveness.
+Dark theme with stylish and professional UI elements.
+License
+This project is licensed under the MIT License.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+Developed by Deep Swarup.
