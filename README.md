@@ -9,6 +9,11 @@ This is a web-based Face Recognition Attendance System that captures images from
 - Responsive design for different screen sizes.
 - Stylish and professional UI with a dark theme.
 
+## Demo
+
+[![Face Recognition Attendance System Demo](https://drive.google.com/file/d/1d2VeRnXurKi96rJuSOnpxL2ecmWqbB9o/view?usp=sharing)]
+
+
 ## Prerequisites
 
 - Node.js and npm installed on your system.
