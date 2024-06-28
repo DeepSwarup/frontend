@@ -10,8 +10,7 @@ This is a web-based Face Recognition Attendance System that captures images from
 - Stylish and professional UI with a dark theme.
 
 ## Demo
-![Face Recognition Attendance System Demo![photo_readme](https://github.com/DeepSwarup/opencv_react_attendance_web_app/assets/108137844/418b069e-6afc-4ef3-b259-0c7218c9eb7e)
-]()](https://drive.google.com/file/d/1d2VeRnXurKi96rJuSOnpxL2ecmWqbB9o/view?usp=sharing)
+[![Watch the video](https://github.com/DeepSwarup/opencv_react_attendance_web_app/assets/108137844/7f4e8ab8-af34-4440-a48c-be371c8e005a)](https://drive.google.com/file/d/1d2VeRnXurKi96rJuSOnpxL2ecmWqbB9o/view?usp=sharing)
 ## Prerequisites
 
 - Node.js and npm installed on your system.
