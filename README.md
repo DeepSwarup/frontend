@@ -1,6 +1,6 @@
 # Face Recognition Attendance System
 
-This is a web-based Face Recognition Attendance System that captures images from a webcam, detects faces, and marks attendance. The application displays the recent attendance entries in a table format. It is built with React for the frontend and communicates with a backend server via RESTful APIs.
+This is a web-based Face Recognition Attendance System that captures images from a webcam, detects faces, and marks attendance. The application displays the recent attendance entries in a table format. It is built with React for the frontend and communicates with a backend built with flask using API interactions.
 
 ## Features
 
